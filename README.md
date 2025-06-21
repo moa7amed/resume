@@ -31,4 +31,4 @@ To view locally:
 ```bash
 git clone https://github.com/moa7amed/resume.git
 cd resume
-open index.html
+open index
