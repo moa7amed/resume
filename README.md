@@ -22,7 +22,7 @@ I’m a software developer with experience in C#, .NET, SQL Server, and web tech
 ## 🌐 Live Preview
 
 Soon to be hosted at:  
-**[moa7amed.github.io/resume](https://moa7amed.github.io/resume)**
+**[moa7amed.com](https://moa7amed.com)**
 
 ## 🛠 How to Use
 
