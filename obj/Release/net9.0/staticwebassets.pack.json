@@ -1,0 +1,585 @@
+{
+  "Files": [
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\Resume.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Resume.Web.ld60qhncwf.bundle.scp.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\MohamedIbrahim_SoftwareDeveloper.pdf",
+      "PackagePath": "staticwebassets\\MohamedIbrahim_SoftwareDeveloper.pdf"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\css\\pe-icon-7-stroke.css",
+      "PackagePath": "staticwebassets\\css\\pe-icon-7-stroke.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\css\\transition-animations.css",
+      "PackagePath": "staticwebassets\\css\\transition-animations.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\fonts\\Pe-icon-7-strokebb1d.eot",
+      "PackagePath": "staticwebassets\\fonts\\Pe-icon-7-strokebb1d.eot"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\fonts\\Pe-icon-7-strokebb1d.svg",
+      "PackagePath": "staticwebassets\\fonts\\Pe-icon-7-strokebb1d.svg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\fonts\\Pe-icon-7-strokebb1d.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Pe-icon-7-strokebb1d.ttf"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\fonts\\Pe-icon-7-strokebb1d.woff",
+      "PackagePath": "staticwebassets\\fonts\\Pe-icon-7-strokebb1d.woff"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\fonts\\Pe-icon-7-stroked41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\Pe-icon-7-stroked41d.eot"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\fonts\\fontawesome-webfont3e6e.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.eot"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\fonts\\fontawesome-webfont3e6e.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.svg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\fonts\\fontawesome-webfont3e6e.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.ttf"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\fonts\\fontawesome-webfont3e6e.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.woff"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\fonts\\fontawesome-webfont3e6e.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.woff2"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\blog\\blog_post_1.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog_post_1.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\blog\\blog_post_2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog_post_2.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\blog\\blog_post_2_full.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog_post_2_full.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\blog\\blog_post_3.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog_post_3.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\blog\\blog_post_4.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog_post_4.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\blog\\blog_post_5.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog_post_5.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\blog\\blog_post_6.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog_post_6.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\blog\\blog_post_7.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog_post_7.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\blog\\blog_post_8.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog_post_8.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\blog\\comments\\comment_photo_1.png",
+      "PackagePath": "staticwebassets\\images\\blog\\comments\\comment_photo_1.png"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\blog\\comments\\comment_photo_2.png",
+      "PackagePath": "staticwebassets\\images\\blog\\comments\\comment_photo_2.png"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\clients\\client_1.png",
+      "PackagePath": "staticwebassets\\images\\clients\\client_1.png"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\clients\\client_2.png",
+      "PackagePath": "staticwebassets\\images\\clients\\client_2.png"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\clients\\client_3.png",
+      "PackagePath": "staticwebassets\\images\\clients\\client_3.png"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\clients\\client_4.png",
+      "PackagePath": "staticwebassets\\images\\clients\\client_4.png"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\clients\\client_5.png",
+      "PackagePath": "staticwebassets\\images\\clients\\client_5.png"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\clients\\client_6.png",
+      "PackagePath": "staticwebassets\\images\\clients\\client_6.png"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\home_page_bg_2.jpg",
+      "PackagePath": "staticwebassets\\images\\home_page_bg_2.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\my_photo.jpeg",
+      "PackagePath": "staticwebassets\\images\\my_photo.jpeg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\portfolio\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\1.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\portfolio\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\10.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\portfolio\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\11.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\portfolio\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\12.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\portfolio\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\2.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\portfolio\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\3.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\portfolio\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\portfolio\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\5.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\portfolio\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\6.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\portfolio\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\7.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\portfolio\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\8.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\portfolio\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\9.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\portfolio\\portfolio_details\\1_1.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\portfolio_details\\1_1.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\portfolio\\portfolio_details\\1_2.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\portfolio_details\\1_2.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\portfolio\\portfolio_details\\1_3.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\portfolio_details\\1_3.jpg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\service\\copywrite.png",
+      "PackagePath": "staticwebassets\\images\\service\\copywrite.png"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\service\\ecommerce.png",
+      "PackagePath": "staticwebassets\\images\\service\\ecommerce.png"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\service\\management.png",
+      "PackagePath": "staticwebassets\\images\\service\\management.png"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\service\\web_design.png",
+      "PackagePath": "staticwebassets\\images\\service\\web_design.png"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\testimonials\\testimonial_photo_1.png",
+      "PackagePath": "staticwebassets\\images\\testimonials\\testimonial_photo_1.png"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\images\\testimonials\\testimonila_photo_2.png",
+      "PackagePath": "staticwebassets\\images\\testimonials\\testimonila_photo_2.png"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\js\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\js\\jquery-2.1.3.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-2.1.3.min.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\js\\jquery.hoverdir.js",
+      "PackagePath": "staticwebassets\\js\\jquery.hoverdir.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\js\\jquery.shuffle.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.shuffle.min.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\js\\masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\masonry.pkgd.min.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\js\\modernizr.custom.js",
+      "PackagePath": "staticwebassets\\js\\modernizr.custom.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\js\\page-transition.js",
+      "PackagePath": "staticwebassets\\js\\page-transition.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\js\\validator.js",
+      "PackagePath": "staticwebassets\\js\\validator.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\monopoly_go.html",
+      "PackagePath": "staticwebassets\\monopoly_go.html"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\preview\\lmpixels-demo-panel.css",
+      "PackagePath": "staticwebassets\\preview\\lmpixels-demo-panel.css"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\preview\\lmpixels-demo-panel.js",
+      "PackagePath": "staticwebassets\\preview\\lmpixels-demo-panel.js"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\profile-image.jpeg",
+      "PackagePath": "staticwebassets\\profile-image.jpeg"
+    },
+    {
+      "Id": "G:\\Projects\\Resume2025\\MyResume\\Resume.Web\\wwwroot\\sitemap.xml",
+      "PackagePath": "staticwebassets\\sitemap.xml"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.Resume.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.Resume.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.build.Resume.Web.props",
+      "PackagePath": "build\\Resume.Web.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Resume.Web.props",
+      "PackagePath": "buildMultiTargeting\\Resume.Web.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.buildTransitive.Resume.Web.props",
+      "PackagePath": "buildTransitive\\Resume.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

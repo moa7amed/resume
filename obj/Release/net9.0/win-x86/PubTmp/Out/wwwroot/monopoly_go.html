@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>مدير بطاقات Monopoly GO - نسخة كاملة</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <style>
+        body { padding: 20px; background-color: #f2f2f2; font-family: sans-serif; }
+        .card-box { border: 1px solid #ccc; background: white; border-radius: 8px; padding: 10px; margin-bottom: 10px; }
+        .set-title { font-weight: bold; color: #0056b3; margin-top: 20px; }
+        .checkboxes label { margin-left: 20px; }
+        .filter-btns button { margin-left: 5px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2 class="text-center mb-4">🎴 مدير بطاقات Monopoly GO</h2>
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label>الحساب:</label>
+            <select id="accountSelect" class="form-select"></select>
+            <button class="btn btn-secondary btn-sm mt-1" onclick="addAccount()">➕ حساب جديد</button>
+        </div>
+        <div class="col-md-6">
+            <label>الألبوم:</label>
+            <select id="albumSelect" class="form-select" onchange="renderCards()">
+                <option value="default">ألبوم تجريبي</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text">بحث</span>
+        <input type="text" id="searchBox" class="form-control" placeholder="ابحث عن بطاقة..." oninput="renderCards()">
+    </div>
+
+    <div class="filter-btns mb-3">
+        <button class="btn btn-outline-primary" onclick="setFilter('all')">الكل</button>
+        <button class="btn btn-outline-warning" onclick="setFilter('missing')">المفقودة</button>
+        <button class="btn btn-outline-success" onclick="setFilter('extra')">الإضافية</button>
+        <button class="btn btn-outline-info" onclick="setFilter('completed')">المكتملة</button>
+    </div>
+
+    <div id="cardContainer"></div>
+
+    <div class="mt-4 text-center">
+        <button class="btn btn-success" onclick="saveData()">💾 حفظ</button>
+        <button class="btn btn-primary" onclick="exportData()">⬇️ تصدير الحساب</button>
+        <button class="btn btn-info" onclick="exportAll()">⬇️ تصدير كل الحسابات</button>
+        <input type="file" id="importFile" style="display:none;" onchange="importData(event)">
+        <input type="file" id="importAllFile" style="display:none;" onchange="importAll(event)">
+        <button class="btn btn-warning" onclick="document.getElementById('importFile').click()">⬆️ استيراد الحساب</button>
+        <button class="btn btn-dark" onclick="document.getElementById('importAllFile').click()">⬆️ استيراد الكل</button>
+    </div>
+</div>
+
+<script>
+// Config: albums and cards
+let albums = {
+    default: {
+        name: "ألبوم تجريبي",
+        sets: {
+            "مجموعة البداية": ["بطاقة 1", "بطاقة 2", "بطاقة 3"],
+            "مجموعة متقدمة": ["بطاقة 4", "بطاقة 5"]
+        }
+    }
+};
+
+let accounts = JSON.parse(localStorage.getItem("accounts") || '["الحساب 1"]');
+let activeAccount = accounts[0];
+let cardStates = {};
+let currentFilter = "all";
+
+// Initialization
+function init() {
+    updateAccountList();
+    loadData();
+    renderCards();
+}
+
+function updateAccountList() {
+    const sel = document.getElementById("accountSelect");
+    sel.innerHTML = "";
+    accounts.forEach(acc => {
+        let o = document.createElement("option");
+        o.value = acc;
+        o.textContent = acc;
+        sel.appendChild(o);
+    });
+    sel.value = activeAccount;
+    sel.onchange = () => {
+        activeAccount = sel.value;
+        loadData();
+        renderCards();
+    };
+}
+
+function addAccount() {
+    const name = prompt("أدخل اسم الحساب:");
+    if (name && !accounts.includes(name)) {
+        accounts.push(name);
+        localStorage.setItem("accounts", JSON.stringify(accounts));
+        activeAccount = name;
+        updateAccountList();
+        saveData();
+        renderCards();
+    }
+}
+
+function setFilter(f) {
+    currentFilter = f;
+    renderCards();
+}
+
+function renderCards() {
+    const album = document.getElementById("albumSelect").value;
+    const sets = albums[album].sets;
+    const search = document.getElementById("searchBox").value;
+    const container = document.getElementById("cardContainer");
+    container.innerHTML = "";
+
+    Object.entries(sets).forEach(([setName, cards]) => {
+        let setDone = true;
+        let section = document.createElement("div");
+        section.innerHTML = `<h5 class='set-title'>${setName}</h5>`;
+
+        cards.forEach(card => {
+            if (!card.includes(search)) return;
+            const state = cardStates[card] || { owned: false, extra: false };
+            if (currentFilter === "missing" && state.owned) return;
+            if (currentFilter === "extra" && !state.extra) return;
+            if (currentFilter === "completed" && (!state.owned || !state.extra)) { setDone = false; return; }
+
+            let div = document.createElement("div");
+            div.className = "card-box";
+            div.innerHTML = `
+                <strong>${card}</strong>
+                <div class="checkboxes">
+                    <label><input type="checkbox" ${state.owned ? "checked" : ""} onchange="updateState('${card}', this.checked, 'owned')"> مملوكة</label>
+                    <label><input type="checkbox" ${state.extra ? "checked" : ""} onchange="updateState('${card}', this.checked, 'extra')"> إضافية</label>
+                </div>`;
+            section.appendChild(div);
+        });
+
+        if (currentFilter !== "completed" || setDone)
+            container.appendChild(section);
+    });
+}
+
+function updateState(card, val, type) {
+    if (!cardStates[card]) cardStates[card] = { owned: false, extra: false };
+    cardStates[card][type] = val;
+    saveData();
+}
+
+function saveData() {
+    localStorage.setItem(`data_${activeAccount}`, JSON.stringify(cardStates));
+}
+
+function loadData() {
+    cardStates = JSON.parse(localStorage.getItem(`data_${activeAccount}`) || "{}");
+}
+
+function exportData() {
+    const data = localStorage.getItem(`data_${activeAccount}`);
+    downloadFile(data, `${activeAccount}_cards.json`);
+}
+
+function exportAll() {
+    const all = { accounts };
+    accounts.forEach(acc => {
+        all[`data_${acc}`] = localStorage.getItem(`data_${acc}`);
+    });
+    downloadFile(JSON.stringify(all), `all_monopoly_data.json`);
+}
+
+function downloadFile(content, name) {
+    const blob = new Blob([content], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = name;
+    link.click();
+    URL.revokeObjectURL(url);
+}
+
+function importData(e) {
+    const file = e.target.files[0];
+    const reader = new FileReader();
+    reader.onload = function(evt) {
+        localStorage.setItem(`data_${activeAccount}`, evt.target.result);
+        loadData();
+        renderCards();
+    };
+    reader.readAsText(file);
+}
+
+function importAll(e) {
+    const file = e.target.files[0];
+    const reader = new FileReader();
+    reader.onload = function(evt) {
+        const all = JSON.parse(evt.target.result);
+        if (all.accounts) {
+            localStorage.setItem("accounts", JSON.stringify(all.accounts));
+            all.accounts.forEach(acc => {
+                localStorage.setItem(`data_${acc}`, all[`data_${acc}`] || "{}");
+            });
+            accounts = all.accounts;
+            activeAccount = accounts[0];
+            init();
+        }
+    };
+    reader.readAsText(file);
+}
+
+window.onload = init;
+</script>
+</body>
+</html>
